@@ -1,0 +1,128 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.main_container
+{
+    text-align: center;
+}
+.container_head
+{
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    
+}
+.heading
+{
+    position: relative;
+    top: 32px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.button_div
+{
+    height: 100px;
+   
+}
+.Add
+{
+    height: 50px;
+    width: 80px;
+    float: left;
+    position: relative;
+    top: 30%;
+    margin-left: 3%; 
+    border-radius: 0%;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 22px;
+
+}
+#name_field
+{
+    float: left;
+    padding-left: 3%; 
+    position: relative;
+    top: 20px;
+   font-weight: 800;
+   color: gray;
+   font-family: Consolas;
+   font-size: 20px;
+   letter-spacing: 1px;
+}
+#phone_field
+{
+    float: right;
+    position: relative;    
+    top: 20px;
+    right: 50%;
+    font-weight: 800;
+   color: gray;
+   font-family: Consolas;
+   font-size: 20px;
+   letter-spacing: 1px;
+}
+.shown_first
+{
+    
+}
+.shown_later
+{
+    display: none;
+}
+.Add1
+{
+    float: left;
+    text-transform: uppercase;  
+
+}
+.text
+{
+    float: left;
+}
+#name, #number
+{
+    height: 40px;
+    width: 20% ;
+}
+.entries 
+{
+    float: left;
+}
+.entries1
+{
+    float: left;
+}
+
+.disp_name
+{
+    position: relative;
+    padding-left: 3%;
+
+}
+.disp_num
+{
+    float: right;
+    position: relative;
+    right: 50%;
+    bottom: 60px;
+
+}
+.one_set
+{
+    margin: 0;
+    padding:0;
+    border: 1px solid black;
+}
+.delbtn
+{
+    overflow: hidden;
+     float: right;
+    position: relative;
+    left: -25%;
+    bottom: 40px;
+}

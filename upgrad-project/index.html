@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Phone Directory</title>
+        <link href="./style/style.css" type="text/css" rel="stylesheet">
+         <meta charset="UTF-8"> 
+        <script src="scripts/script.js">
+           
+        </script>
+    </head>
+    <body>
+        <div class="main_container">
+            <div class="container_head">
+                <h1 class="heading">Phone Directory using JavaScript</h1>
+            </div>
+            <div class="shown_first" id="shown_first">
+               <div class="button_div" id="addbtn1"><button class="Add">ADD</button></div>
+                    <div class="display_table_headers">
+                        <div id="name_field">NAME</div>
+                        <div id="phone_field">PHONE</div>
+                    </div>
+                </div>
+            </div>
+           <!-- <script type="text/javascript">
+                var name = document.getElementById('name');
+                var number = document.getElementById('number');                             
+                var name_updater = document.getElementById('name_updater');
+                var number_updater= document.getElementById('number_updater');
+                function update()
+                {
+                    name_updater.value=name.value;
+                    number_updater.value=number.value;
+                } -->
+            </script>
+            <div class="shown_later" id="shown_later">
+                    <div class="button_div2" id="backbtn"><button class="Add1">BACK</button></div><br>
+                    <br>
+                    <br>
+                <form class="data_entry">
+                    <div class="name_entry">
+                       <div class="text">Name</div><br>
+                        <input type="text" placeholder="Your name" class="entries" id="name" onkeydown="update()">
+                    </div>
+                    <br><br><br>
+                    <div class="num_entry">
+                        <div class="text">Number</div><br>
+                        <input type="number" placeholder="Your number"class="entries" id="number">
+                    </div>
+                </form>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="entries1">
+                    Name : <p id='name_updater'></p>
+                </div>
+                <br>
+                <br>
+                <div class="entries1">
+                    Number : <p id='number_updater'></p>
+                </div>
+                <br>
+                <br>
+                <div class="button_div2" id="addbtn2"><button class="Add1">ADD</button></div>
+                
+            </div>
+            <br><br><br>
+            <div id="display_number">
+                <div class="one_set">
+                    <div class="disp_name"><p>Andy</p></div>
+                    <div class="disp_num"><p>9999999999</p></div>
+                    <button class="delbtn">Delete</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
